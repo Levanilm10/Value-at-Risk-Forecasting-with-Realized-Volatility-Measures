@@ -1,4 +1,4 @@
-# Value-at-Risk Forecasting with Realized Volatility Measures (SPY)
+# Value-at-Risk Forecasting with Realized Volatility Measures
 
 Forecast **one-day-ahead Value-at-Risk (VaR)** for **SPY daily log-returns** at confidence levels **1%, 5%, 10%**, using **intraday-based volatility measures** (realized volatility `rv5` and bipower variation `bv`) and comparing three model families:
 - **GARCH** (with heavy-tailed innovations)
