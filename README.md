@@ -15,7 +15,7 @@ This repository contains the notebooks to reproduce the analysis, feature engine
 
 - Documents volatility clustering and long-memory patterns via ACF plots of `|log_ret|` and `log(rv5)`.
 - Builds interpretable features, like  multi-horizon volatility features from `log(rv5)` and jump proxy: `J_t = max(rv5_t - bv_t, 0)` to capture discontinuous moves.
-- Uses a realistic, no-look-ahead **chronological split**: first **80% train**, last **20% test**, with **rolling forecasting** during tuning. 
+- Uses no-look-ahead chronological split: first 80% train, last 20% test, with rolling forecasting during tuning. 
 - Evaluates VaR forecasts with:
   - Empirical violation rate coverage.
   - Quantile loss
